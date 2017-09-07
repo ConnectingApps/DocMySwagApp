@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication2.Controllers.NieuwController.Get">
+            <summary>
+            Get iets
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.ValuesController.GetOutput(System.String,WebApplication2.InputData)">
+            <summary>
+            Haal de output op
+            </summary>
+            <param name="haha">De haha parameter</param>
+            <param name="inputData">De input data parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Get a value
+            </summary>
+            <param name="id">The id</param>
+            <returns>some string</returns>
+        </member>
+        <member name="T:WebApplication2.InputData">
+            <summary>
+            Class that describes the input data
+            </summary>
+        </member>
+        <member name="P:WebApplication2.InputData.Id">
+            <summary>
+            The id
+            </summary>
+        </member>
+        <member name="P:WebApplication2.InputData.SomeData">
+            <summary>
+            Some data
+            </summary>
+        </member>
+        <member name="T:WebApplication2.OutputData">
+            <summary>
+            The output data
+            </summary>
+        </member>
+        <member name="P:WebApplication2.OutputData.Id">
+            <summary>
+            The input id
+            </summary>
+        </member>
+        <member name="P:WebApplication2.OutputData.SomeData">
+            <summary>
+            Some data to output
+            </summary>
+        </member>
+    </members>
+</doc>
