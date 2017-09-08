@@ -47,14 +47,22 @@ dotnet DocMySwagApp.dll
 
 # Test DocMySwagApp
 The solution contains automated tests in the following folders: ApiModel.UnitTest, DocMySwagApp.IntegrationTest, DocMySwagApp.UnitTest and FullHtmlGeneration.UnitTest .
-To run them, you can use visual studio or run them from the command-line like this.
+To run them, you can use visual studio or run them from the command-line like this:
+
 ```sh
 dotnet test -c RELEASE
 ```
+
 Feel free to use this from the root folder, you may get an error message for projects that do not have automated tests. You can ignore these.
 
 # Join the Development Team
-Work in progress
+The tool has been created to be used and improved by .NET developers. You can help yourself, your organisation and other .NET developers
+by fixing bugs, discovering bugs and last but not least adding support for new document types. If you want to help, contact Connecting Apps.
+
+Team member   | Join Date   | Team role      |
+------------- | ----------- |----------------|
+[@DaanAcohen](https://github.com/DaanAcohen)   | 08-09-2017  | Lead developer |
+
 
 # FAQ
 Work in progress
