@@ -57,12 +57,11 @@ Feel free to use this from the root folder, you may get an error message for pro
 
 # Join the Development Team
 The tool has been created to be used and improved by .NET developers. You can help yourself, your organisation and other .NET developers
-by fixing bugs, discovering bugs and last but not least adding support for new document types. If you want to help, contact Connecting Apps.
+by fixing bugs, discovering bugs and last but not least adding support for new document types. If you want to help, [contact Connecting Apps](http://www.connectingapps.net/contact/).
 
 Team member   | Join Date   | Team role      |
 ------------- | ----------- |----------------|
 [@DaanAcohen](https://github.com/DaanAcohen)   | 08-09-2017  | Lead developer |
-
 
 # FAQ
 Work in progress
