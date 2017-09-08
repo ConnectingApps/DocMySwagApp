@@ -21,7 +21,7 @@ A .NET Core command line tool to generate a human readable document (e.g. html) 
 
 ## Get DocMySwagApp
 To get the complete solution, you can just download it. The easiest way to do so is to [download the zip file](https://github.com/ConnectingApps/DocMySwagApp/archive/master.zip) with the complete content.
-To create a running application, you need to have the [.NET Core SDK 2.0] (https://www.microsoft.com/net/download/core) installed. The project (inside the solution) to publish is DocMySwagApp.
+To create a running application, you need to have the [.NET Core SDK 2.0](https://www.microsoft.com/net/download/core) installed. The project (inside the solution) to publish is DocMySwagApp.
 If you have visual studio 2017 installed, you can use that to publish. Otherwise you can publish it from the command-line.
 Just open the folder, you just added to your PC by extracting the zip file and type:
 
@@ -29,6 +29,8 @@ Just open the folder, you just added to your PC by extracting the zip file and t
 cd DocMySwagApp
 dotnet publish -c RELEASE -o D:/TargetFolder
 ```
+The folder DocMySwagApp is the project folder of the actual commandline tool. It is inside the same folder where you can find the solution file.
+The D:/TargetFolder can be replaced by any folder you want to publish to.
 
 ## Create documentation
 Work in progress
