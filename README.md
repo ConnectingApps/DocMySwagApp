@@ -11,9 +11,9 @@ A .NET Core command line tool to generate a document (e.g. html) from a Swagger 
   - [Test DocMySwagApp](#test-docmyswagapp)
   - [Join The Development Team](#join-the-development-team)
   - [FAQ](#faq)
-	- [Why do I need this?](#why-do-i-need-this?)
-	- [Are Linux and Mac OS supported?](are-linux-and-mac-os-supported?)
-	- [Can I use my own document type?](can-i-use-my-own-document-type?)
+	- [Why do I need this?](#why-do-i-need-this)
+	- [Are Linux and Mac OS supported?](are-linux-and-mac-os-supported)
+	- [Can I use my own document type?](can-i-use-my-own-document-type)
 
 
 # Use DocMySwagApp
