@@ -1,5 +1,5 @@
 # DocMySwagApp
-A .NET Core command line tool to generate a document (e.g. html) from a Swagger xml file
+A .NET Core command line tool to generate a human readable document (e.g. html) from a Swagger xml file
 
 # Table of contents
 
@@ -18,10 +18,17 @@ A .NET Core command line tool to generate a document (e.g. html) from a Swagger 
 
 
 # Use DocMySwagApp
-Work in progress
 
 ## Get DocMySwagApp
-Work in progress
+To get the complete solution, you can just download it. The easiest way to do so is to [download the zip file](https://github.com/ConnectingApps/DocMySwagApp/archive/master.zip) with the complete content.
+To create a running application, you need to have the [.NET Core SDK 2.0] (https://www.microsoft.com/net/download/core) installed. The project (inside the solution) to publish is DocMySwagApp.
+If you have visual studio 2017 installed, you can use that to publish. Otherwise you can publish it from the command-line.
+Just open the folder, you just added to your PC by extracting the zip file and type:
+
+```sh
+cd DocMySwagApp
+dotnet publish -c RELEASE -o D:/TargetFolder
+```
 
 ## Create documentation
 Work in progress
