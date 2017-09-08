@@ -16,7 +16,6 @@ A .NET Core command line tool to generate a human readable document (e.g. html) 
 	- [Are Linux and Mac OS supported?](#are-linux-and-mac-os-supported)
 	- [Can I use my own document type?](#can-i-use-my-own-document-type)
 
-
 # Use DocMySwagApp
 
 ## Get DocMySwagApp
@@ -64,19 +63,25 @@ Team member   | Join Date   | Team role      |
 [@DaanAcohen](https://github.com/DaanAcohen)   | 08-09-2017  | Lead developer |
 
 # FAQ
-Work in progress
 
 ## What is a swagger xml file?
-Work in progress
+A swagger xml file is a file to describe your complete web API including code comments and data models.
+
+If your web api does not have a swagger xml file, just add it after you added the swagger dependency. You can do this with 
+[Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio#tabpanel_9fKY8SstIr-1_visual-studio), 
+Visual Studio for Mac or Visual Studio Code.
 
 ## Why do I need this?
-Work in progress
+If you create a web backend using .NET Core, you may want to add this info in a nice human readable document that you can share in your document management system.
+If this info is in an XML file, it useless for this purpose. You can still see it in your swagger web interface but not on any other place.
+This tool parses your swagger xml file and creates a human readable document such as html to solve the problem.
 
 ## Are Linux and Mac OS supported?
-Work in progress
+Yes. It is a .NET Core project for exactly this reason. Most .NET developers, including .NET Core Developers, use Windows and this tool has
+been initially created on Windows but we highly appreciate it if you use, test and further develop it on a Unix based OS. 
 
 ## Can I use my own document type?
-Work in progress
+It is open source for a reason. If your document type is not supported, feel free to add a project into the solution that does support it.
 
 
 
