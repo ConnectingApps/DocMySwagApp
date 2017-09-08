@@ -5,7 +5,7 @@ A .NET Core command line tool to generate a document (e.g. html) from a Swagger 
 
   - [DocMySwagApp](#docmyswagapp)
   - [Table of contents](#table-of-contents)
-  - [Use DocMySwagApp(#use-docmyswagapp)
+  - [Use DocMySwagApp](#use-docmyswagapp)
 	- [Get DocMySwagApp](get-docmyswagapp)
 	- [Create documentation](create-documentation)
   - [Test DocMySwagApp](test-docmyswagapp)
