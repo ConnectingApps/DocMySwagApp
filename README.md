@@ -33,10 +33,25 @@ The folder DocMySwagApp is the project folder of the actual commandline tool. It
 The D:/TargetFolder can be replaced by any folder you want to publish to.
 
 ## Create documentation
-Work in progress
+The main goal of the tool is to generate documentation from a swagger xml. A typical command-line way to do this is this:
+```sh
+dotnet DocMySwagApp.dll i=C:\MyProject\SwaggerFile.xml o=C:\MyDocumentationFolder\MyDocumentation.html t=html
+```
+Logically, you should be aware of the operating system you use. Unix based operating systems are case sensitive when it comes to file paths.
+Windows is not like that. Unix based operating systems also have a different convention for slashes than windows . 
+
+If you want a more detailed explanation of the tool, just do not give arguments and run it like this.
+```sh
+dotnet DocMySwagApp.dll
+```
 
 # Test DocMySwagApp
-Work in progress
+The solution contains automated tests in the following folders: ApiModel.UnitTest, DocMySwagApp.IntegrationTest, DocMySwagApp.UnitTest and FullHtmlGeneration.UnitTest .
+To run them, you can use visual studio or run them from the command-line like this.
+```sh
+dotnet test -c RELEASE
+```
+Feel free to use this from the root folder, you may get an error message for projects that do not have automated tests. You can ignore these.
 
 # Join the Development Team
 Work in progress
