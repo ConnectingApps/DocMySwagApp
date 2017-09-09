@@ -1,6 +1,6 @@
 ﻿namespace HtmlGeneration
 {
-    public class DataModel : HtmlTemplateBase
+    internal class DataModel : HtmlTemplateBase
     {
         private readonly string _datamodel;
         private readonly string _summary;

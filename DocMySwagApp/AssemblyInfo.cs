@@ -2,3 +2,4 @@
 
 
 [assembly: InternalsVisibleTo("DocMySwagApp.IntegrationTest")]
+[assembly: InternalsVisibleTo("DocMySwagApp.UnitTest")]

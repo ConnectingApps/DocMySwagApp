@@ -1,6 +1,6 @@
 ﻿namespace DocMySwagApp
 {
-    public class CommandlineArguments : ICommandlineArguments
+    internal class CommandlineArguments : ICommandlineArguments
     {
         public string InputFileName { get; set; }
         public string OutputFileName { get; set; }

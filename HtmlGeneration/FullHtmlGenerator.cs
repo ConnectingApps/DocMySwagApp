@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace HtmlGeneration
 {
-    public class FullHtmlGenerator : IFullHtmlGenerator
+    internal class FullHtmlGenerator : IFullHtmlGenerator
     {
         private string _argumentHeader;
         private string _arguments;

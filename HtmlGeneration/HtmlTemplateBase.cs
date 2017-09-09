@@ -2,7 +2,7 @@
 
 namespace HtmlGeneration
 {
-    public abstract class HtmlTemplateBase : IHtmlTemplate
+    internal abstract class HtmlTemplateBase : IHtmlTemplate
     {
         protected readonly string _templateText;
         protected HtmlTemplateBase(string templateText)

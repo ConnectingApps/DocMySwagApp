@@ -1,6 +1,6 @@
 ﻿namespace HtmlGeneration
 {
-    public class AssemlyDescription : HtmlTemplateBase
+    internal class AssemlyDescription : HtmlTemplateBase
     {
         private readonly string _assemblyName;
 

@@ -1,6 +1,6 @@
 ﻿namespace HtmlGeneration
 {
-    public class Controllers : HtmlTemplateBase
+    internal class Controllers : HtmlTemplateBase
     {
         private readonly string _controllerName;
 

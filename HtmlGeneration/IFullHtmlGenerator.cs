@@ -2,7 +2,7 @@
 
 namespace HtmlGeneration
 {
-    public interface IFullHtmlGenerator
+    internal interface IFullHtmlGenerator
     {
         bool TryInitialize(out string explanation);
         bool TryGenerateOutputFile(SwaggerModel swaggerModel, string outPutFile, out string explanation);

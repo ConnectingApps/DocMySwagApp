@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace HtmlGeneration
 {
-    public class Arguments : HtmlTemplateBase
+    internal class Arguments : HtmlTemplateBase
     {
         private readonly IEnumerable<Argument> _arguments;
 

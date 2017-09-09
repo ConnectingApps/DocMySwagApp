@@ -1,6 +1,6 @@
 namespace HtmlGeneration
 {
-    public interface IHtmlTemplate
+    internal interface IHtmlTemplate
     {
         bool IsValid(out string explanation);
         string GenerateHtml();

@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace DocMySwagApp
 {
-    public class CommandLineArgumentReader
+    internal class CommandLineArgumentReader
     {
         private readonly string[] _commandlineArguments;
         private readonly string[] _supportedFileFormats;

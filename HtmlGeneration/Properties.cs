@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace HtmlGeneration
 {
-    public class Properties : HtmlTemplateBase
+    internal class Properties : HtmlTemplateBase
     {
         private readonly IEnumerable<DataProperty> _dataProperties;
 

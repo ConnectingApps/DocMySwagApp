@@ -1,6 +1,6 @@
 ﻿namespace DocMySwagApp
 {
-    public interface ICommandlineArguments
+    internal interface ICommandlineArguments
     {
         string FileType { get; }
         string InputFileName { get; }

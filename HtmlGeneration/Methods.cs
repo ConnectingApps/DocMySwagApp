@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace HtmlGeneration
 {
-    public class Methods : HtmlTemplateBase
+    internal class Methods : HtmlTemplateBase
     {
         private readonly IEnumerable<ControllerMethod> _controllerMethods;
 

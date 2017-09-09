@@ -1,6 +1,6 @@
 ﻿namespace HtmlGeneration
 {
-    public class NoDataHtml : HtmlTemplateBase
+    internal class NoDataHtml : HtmlTemplateBase
     {
         public NoDataHtml(string htmlTemplate)
             :base(htmlTemplate) 
