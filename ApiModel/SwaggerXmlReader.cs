@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 
 namespace ApiModel
@@ -27,6 +26,11 @@ namespace ApiModel
             }
         }
 
+        /// <summary>
+        /// Read the data and if a required sub elelemt is not there
+        /// a nullreference exception is thrown 
+        /// </summary>
+        /// <returns>the data model</returns>
         private SwaggerModel ReadData()
         {
             var model = new SwaggerModel();

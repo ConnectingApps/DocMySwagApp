@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DocMySwagApp
+﻿namespace DocMySwagApp
 {
     public class CommandlineArguments : ICommandlineArguments
     {

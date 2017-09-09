@@ -1,8 +1,6 @@
-﻿using System;
+﻿using ApiModel;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using ApiModel;
 
 namespace HtmlGeneration
 {
