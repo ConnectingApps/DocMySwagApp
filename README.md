@@ -15,6 +15,7 @@ A .NET Core command line tool to generate a human readable document (e.g. html) 
 	- [Why do I need this?](#why-do-i-need-this)
 	- [Are Linux and Mac OS supported?](#are-linux-and-mac-os-supported)
 	- [Can I use my own document type?](#can-i-use-my-own-document-type)
+	- [Can Connecting Apps help me?](#can-connecting-apps-help-me)
 
 # Use DocMySwagApp
 
@@ -83,7 +84,8 @@ been initially created on Windows but we highly appreciate it if you use, test a
 ## Can I use my own document type?
 It is open source for a reason. If your document type is not supported, feel free to add a project into the solution that does support it.
 
-
+## Can Connecting Apps help me?
+Yes! We can help you with this or other .NET Core projects. Feel free to [contact us](http://www.connectingapps.net/contact/)
 
 
 
